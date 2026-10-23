@@ -9,7 +9,9 @@ st.set_page_config(
 
 st.title("🗑️ Sistem Penjemputan Sampah Terjadwal (CVRP)")
 st.write(
-    "Aplikasi Optimasi Rute Penjemputan Sampah menggunakan **Algoritma Genetika (Genetic Algorithm)** IRWAN ABDULLAH & RENXY LICHANDY."
+    "Aplikasi Optimasi Rute Penjemputan Sampah menggunakan **Algoritma Genetika (Genetic Algorithm)** oleh IRWAN ABDULLAH & RENXY LICHANDY."    
+)
+st.write(
     "Mata Kuliah ALGORITHM DESIGN AND ANALYSIS, Dosen : Dr. CHOIRUL BASIR S.Si. , M.Si"
 )
 
