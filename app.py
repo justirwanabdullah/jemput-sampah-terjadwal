@@ -4,12 +4,13 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 st.set_page_config(
-    page_title="Optimasi Rute Sampah CVRP", page_icon="🗑️", layout="wide"
+    page_title="Optimasi Rute Sampah CVRP Irwan+RENXY", page_icon="🗑️", layout="wide"
 )
 
 st.title("🗑️ Sistem Penjemputan Sampah Terjadwal (CVRP)")
 st.write(
-    "Aplikasi Optimasi Rute Penjemputan Sampah menggunakan **Algoritma Genetika (Genetic Algorithm)**."
+    "Aplikasi Optimasi Rute Penjemputan Sampah menggunakan **Algoritma Genetika (Genetic Algorithm)** IRWAN ABDULLAH & RENXY LICHANDY."
+    "Mata Kuliah ALGORITHM DESIGN AND ANALYSIS, Dosen : Dr. CHOIRUL BASIR S.Si. , M.Si"
 )
 
 # Sidebar - Parameter Sistem
@@ -182,7 +183,7 @@ if st.button("🚀 HITUNG RUTE OPTIMAL", type="primary", use_container_width=Tru
                 color=color,
                 linestyle="--",
                 linewidth=2,
-                label=f"Armada #{idx}",
+                label=f"Armada #{idx + 1}",
             )
 
         ax.set_title("Visualisasi Rute Penjemputan Sampah")
